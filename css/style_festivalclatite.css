@@ -1,0 +1,211 @@
+/* Setari pentru antetul paginii */
+.antet {
+    background-image: url("../imagini/antet/antetclatite.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 95vh;
+    position: relative;
+}
+
+/* Suprapunerea pozei de fundal */
+.antet .suprapunere {
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Setari pentru titlul din antet*/
+.titlu h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5em;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+	font-size: 7em;
+    margin-bottom: 10px;
+}
+
+
+
+/* Setari generale ale paginii*/
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("");
+}
+
+
+/* Setari ale hiperlegaturilor */
+a {
+    color: #b76e79;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Setari pentru positia meniului */
+nav {
+    position: absolute;
+    bottom: 0;
+    width: 94%;	
+}
+
+/* Setari pentru lista neordonata a meniului */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 25px;
+	align-content: left;
+}
+nav ul li {
+    margin: 0 10px;
+}
+
+/* Setari pentru aspectul elementelor din lista */
+nav ul li a {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: white;
+    padding: 10px 15px;
+}
+
+
+
+/* Setari pentru sectiuni si titlurile + continutul acestora */
+section {
+    padding: 50px 60px;
+    margin: 70px auto;
+	margin-top: 90px;
+    max-width: 1180px;
+    background-color: #fff0f5;
+    border-radius: 100px;
+	text-align: justify;
+	font-size: 24px;
+	line-height: 34px;
+	
+}
+
+section h2 {
+    color: #b76e79;
+    margin-bottom: 60px;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 50px;
+}
+section h3 {
+    color: #b76e79;
+    margin-bottom: 12px;
+	margin-top: 40px;
+	text-align: left;
+	font-size: 36px;
+}
+
+.continut {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+p {
+  margin: 0;           
+  margin-bottom: 10px;
+}
+ul {
+	margin-top: 1px;
+	margin-bottom: 1px;
+	margin-left: 40px;
+}
+
+.galerie {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.card {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+
+/* Setari pentru butonul de dreapta-jos */
+.buton {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+
+.buton_pp {
+    background-color: navy;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.buton_pp:hover {
+    background-color: #2c3e50;
+}
+
+
+
+/* Setari pentru subsolul paginii */
+footer {
+    text-align: center;
+    background-color: #b76e79;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+
+/* Altele */
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Video */
+.video-wrapper {
+    width: 50%;
+    margin: 20px auto; /* auto pe lateral îl aliniează la centru */
+}
+
+.video-wrapper iframe {
+    width: 100%;
+    height: 315px; /* poți ajusta înălțimea după preferințe */
+    border: none;
+}
